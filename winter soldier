@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Winter-Soldier Strategic AI</title>
+    <style>
+        body { background-color: #0b0f19; color: white; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .logo { border: 2px solid #30363d; padding: 20px; border-radius: 8px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <h1>WINTER-SOLDIER V3.0</h1>
+        <p>Engineered by CYOMORO LIONEL</p>
+    </div>
+
+    <script>
+    (function (w, d, s, o, f, js, fjs) {
+        w["BotsonicObjects"] = o; w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments); };
+        (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+        js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+    })(window, document, "script", "Botsonic", "https://widget.botsonic.com/CDN/botsonic.min.js");
+    Botsonic("init", {
+        serviceBaseUrl: "https://api-bot.writesonic.com",
+        token: "3831cff6-d8db-4bf9-9751-72dbb9b34331",
+    });
+    </script>
+    </body>
+</html>
